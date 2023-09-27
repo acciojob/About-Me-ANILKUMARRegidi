@@ -1,1 +1,28 @@
-
+*{
+	border-boxing:border-box;
+	padding:0px;
+	margin:0px;
+}
+.container{
+	background:rgb(245,245,245);
+	padding:10px;
+	height:90wh;
+}
+.bio>img{
+	padding:30px;
+}
+.bio{
+	display:flex;
+	background:white;
+	padding:10px;
+}
+#info{
+	align-items:justify;
+	margin-top:30px;
+}
+#info>p>span{
+    font-weight:bold;
+}
+#info>p{
+	margin:4px;
+}
